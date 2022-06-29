@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Really Rad Radio</title>
+	</head>
+	<body>
+		<script>
+			window.onload = function() {
+				var sites = Array("https://www.blurfm.com/", "https://www.kexp.org/", "https://www.kissradio.ca/")
+				var site = sites[Math.floor(Math.random()*sites.length)];
+				location.href = site;
+			}
+		</script>
+	</body>
+</html>
